@@ -1,0 +1,145 @@
+@import './assets/fonts/fonts.css';
+
+body {
+  width: 1020px;
+  margin: 0 auto;
+  font-family: "Lato Bold";
+}
+
+h1,
+h2,
+a,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container header,
+.container section {
+  padding: 0 40px;
+}
+
+.header {
+  background: #2D303A;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: 6px solid #323746;
+}
+
+.header__content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 30px 0 30px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__logo {
+  font-size: 25px;
+}
+
+.header__logo::after {
+  content: '*';
+  color: #f06c64;
+}
+
+.header__nav {
+  font-size: 12px;
+}
+
+.header__nav a:not(:last-child)::after {
+  content: '●';
+  color: #494E62;
+  margin: auto 13px;
+  font-size: 5px;
+}
+
+.header__nav a:hover {
+  color: #F06C64;
+}
+
+/**/
+
+.slider {
+  background: #f06c64;
+  border-bottom: 6px solid #ea676b;
+}
+
+.slider__content {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 53px 0;
+  justify-content: space-between;
+}
+
+.slider__content li {
+  transition: 0.5s;
+}
+
+.slider__content li:first-child:hover,
+.slider__content li:last-child:hover {
+  cursor: pointer;
+  transition: 0;
+  transform: scale(1.5);
+}
+
+.slider__content li:nth-child(3) {
+  padding-left: 15px;
+}
+
+/**/
+
+.information {
+  background: #f2f2f2;
+  color: #666d89;
+  border-bottom: 6px solid #fff;
+  font-family: "Lato Black";
+}
+
+.information__description h1 {
+  padding-top: 67px;
+  font-size: 30px;
+}
+
+.information__description p {
+  font-family: "Lato Light";
+  padding: 33px 0 51px;
+  color: #767e9e;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.information__achievements {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, minmax(100px, auto));
+  grid-gap: 40px 20px;
+  padding-bottom: 67px;
+}
+
+.information__achievements h2 {
+  font-size: 18px;
+  padding-bottom: 18px;
+}
+
+.information__achievements p {
+  font-size: 12px;
+}
+
+.information__achievement {
+  display: flex;
+}
+
+.information__achievement p {
+  font-family: "Lato Regular";
+}
+
+.information__achiv-description {
+  padding-left: 20px;
+}
