@@ -4,114 +4,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Singolo1</title>
   <link rel="stylesheet" href="singolo1.css">
-  <title>Singolo</title>
 </head>
 
 <body>
-
-  <div class="container">
-    <header class="header">
-      <div class="header__content">
-        <a href="#" class="header__logo">Singolo</a>
-        <nav class="header__nav">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">Portfolio</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </nav>
-      </div>
+  <div class="header-wrapper">
+    <header>
+      <h1><a href="./singolo1.html" class="logo-a">
+	  <span class="logo">SINGOLO</span></a>
+	  <span class="asterisk">*</span>
+      </h1>
+	  
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#SERVICES">SERVICES</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+	  
     </header>
-    <section class="slider">
-      <ul class="slider__content">
-        <li>
-          <img src="./assets/images/chev_left.png">
-        </li>
-        <li>
-          <img src="./assets/images/iPhone Vertical.png">
-        </li>
-        <li>
-          <img src="./assets/images/iPhone Horizontal.png">
-        </li>
-        <li>
-          <img src="./assets/images/chev_right.png">
-        </li>
-      </ul>
-    </section>
-    <section class="information">
-      <div class="information__content">
-        <div class="information__description">
-          <h1>Our Services</h1>
-          <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi
-            erat
-            porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-            condimentum nibh.</p>
+  </div>
+  
+  <main>
+    <div class="slider-wrapper">
+      <section class="slider">
+        <img src="assets/images/iPhone Vertical.png" class="vertical" alt="iPhone vertical">
+        <img src="assets/images/iPhone Horizontal.png" class="horizontal" alt="iPhone horizontal">
+        <img src="assets/images/chev_left.png" class="left-arrow" alt="left arrow">
+        <img src="assets/images/chev_right.png" class="right-arrow" alt="right arrow">
+      </section>
+    </div>
+	
+    <div class="services-wrapper">
+      <section class="services">
+        <div class="service-wrap">
+          <h1 class="h1-service">Our Services</h1>
+          <p class="p-service"><a name="SERVICES"></a>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non
+            commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
+            commodo, tortor mauris condimentum nibh.</p>
         </div>
-        <div class="information__achievements">
-          <div class="information__achievement">
-            <div>
-              <img src="./assets/images/pen.png">
-            </div>
-            <div class="information__achiv-description">
-              <h2>Custom Design</h2>
-              <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices
-                velit.</p>
-            </div>
-          </div>
-          <div class="information__achievement">
-            <div>
-              <img src="./assets/images/bulb.png">
-            </div>
-            <div class="information__achiv-description">
-              <h2>Inovative Ideas</h2>
-              <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.
+		
+        <div class="grid">
+          <div class="pen">
+            <img src="assets/images/pen.png" class="service-img" alt="pen">
+            <div class="wrapper">
+              <h2 class="h2-pen">Custom Design</h2>
+              <p class="p-pen">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
               </p>
             </div>
           </div>
-          <div class="information__achievement">
-            <div>
-              <img src="./assets/images/heart.png">
-            </div>
-            <div class="information__achiv-description">
-              <h2>Love Is The Answer</h2>
-              <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque
-                condimentum.</p>
-            </div>
-          </div>
-          <div class="information__achievement">
-            <div>
-              <img src="./assets/images/phone.png">
-            </div>
-            <div class="information__achiv-description">
-              <h2>Responsive Layout</h2>
-              <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
+		  
+          <div class="bulb">
+            <img src="assets/images/bulb.png" class="service-img" alt="bulb">
+            <div class="wrapper">
+              <h2 class="h2-bulb">Inovative Ideas</h2>
+              <p class="p-bulb">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.
+              </p>
             </div>
           </div>
-          <div class="information__achievement">
-            <div>
-              <img src="./assets/images/bubble.png">
-            </div>
-            <div class="information__achiv-description">
-              <h2>24 / 7 Support</h2>
-              <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas
-                venenatis lorem .</p>
-            </div>
-          </div>
-          <div class="information__achievement">
-            <div>
-              <img src="./assets/images/star.png">
-            </div>
-            <div class="information__achiv-description">
-              <h2>Feel Like A Star</h2>
-              <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+		  
+          <div class="heart">
+            <img src="assets/images/heart.png" class="service-img" alt="heart">
+            <div class="wrapper">
+              <h2 class="h2-heart">Love Is The Answer</h2>
+              <p class="p-heart">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.
+                Quisque condimentum.
+              </p>
             </div>
           </div>
+		  
+          <div class="phone">
+            <img src="assets/images/phone.png" class="service-img" alt="phone">
+            <div class="wrapper">
+              <h2 class="h2-phone">Responsive Layout</h2>
+              <p class="p-phone">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula.
+                Praesent elit leo.</p>
+            </div>
+          </div>
+		  
+          <div class="bubble">
+            <img src="assets/images/bubble.png" class="service-img" alt="bubble">
+            <div class="wrapper">
+              <h2 class="h2-bubble">24 / 7 Support</h2>
+              <p class="p-bubble">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat.
+                Pellentesque egestas
+                venenatis lorem. </p>
+            </div>
+          </div>
+		  
+          <div class="star">
+            <img src="assets/images/star.png" class="service-img" alt="star">
+            <div class="wrapper">
+              <h2 class="h2-star">Feel Like A Star</h2>
+              <p class="p-star">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam
+                tellus.</p>
+            </div>
+          </div>
+		  
         </div>
-      </div>
-    </section>
-  </div>
-
+      </section>
+    </div>
+	
+  </main>
+  
 </body>
 
 </html>
