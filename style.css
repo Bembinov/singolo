@@ -88,19 +88,20 @@ h1 {
   margin-left: 37px;
   margin-top: 24px;
   letter-spacing: 0.01px;
+  font-family: 'Lato Bold', sans-serif;
 }
 .asterisk {
   color: #f06c64;
   font-size: 25px;
   line-height: 6.32px;
   text-transform: uppercase;
-  font-family: 'Lato Bold';
+  font-family: 'Lato Bold', sans-serif;
   margin-left: -10px;
 }
 .header-ul > li {
   display: inline-block;
   font-size: 12px;
-  font-family: 'Lato Bold';
+  font-family: 'Lato Bold', sans-serif;
   line-height: 6.32px;
   margin-right: 25px;
 }
@@ -143,7 +144,8 @@ a:focus {
 
 .logo {
   font-size: 23.4px;
-  font-family: 'Lato-Bold';
+  font-family: 'Lato-Bold', sans-serif;
+  
   
 }
 
@@ -166,7 +168,7 @@ a:focus {
 .h2-bubble,
 .h2-star {
   color: #666d89;
-  font-family: 'Lato Black';
+  font-family: 'Lato Black', sans-serif;
   font-size: 18px;
   line-height: 17.86px;
 }
@@ -174,7 +176,7 @@ a:focus {
 .h1-service {
   margin-left: 40px;
   color: #666d89;
-  font-family: 'Lato Black';
+  font-family: 'Lato Black', sans-serif;
   font-size: 30px;
   line-height: 17.86px;
   margin-top: 72px;
@@ -186,7 +188,7 @@ a:focus {
 .p-bubble,
 .p-star {
   color: #767e9e;
-  font-family: 'Lato Regular';
+  font-family: 'Lato Regular', sans-serif;
   font-size: 12px;
   line-height: 21.56px;
   margin-top: 10px;
@@ -196,7 +198,7 @@ a:focus {
 .p-service {
   margin-left: 40px;
   color: #767e9e;
-  font-family: 'Lato Light';
+  font-family: 'Lato Light', sans-serif;
   font-size: 18px;
   line-height: 30px;
   margin-top: 27px;
@@ -229,7 +231,7 @@ a:focus {
   flex-direction: column;
 }
 .header-li > a {
-  font-family: 'Lato Bold';
+  font-family: 'Lato Bold', sans-serif;
   font-size: 12px;
 }
 .h2-bubble {
@@ -252,14 +254,14 @@ a:focus {
 }
 .portfolio-header {
   color: #666d89;
-  font-family: 'Lato Black';
+  font-family: 'Lato Black', sans-serif;
   font-size: 30px;
   line-height: 18px;
   letter-spacing: 0.03em;
 }
 .portfolio-description {
   margin-top: 27px;
-  font-family: 'Lato Light';
+  font-family: 'Lato Light', sans-serif;
   line-height: 30px;
   color: #767e9e;
   font-size: 18px;
@@ -277,7 +279,7 @@ a:focus {
   padding: 67px 40px;
 }
 button > span {
-  font-family: 'Lato Regular';
+  font-family: 'Lato Regular', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 21.56px;
@@ -344,7 +346,7 @@ li > a > img:hover {
 
 .team-member-name {
   color: #666d89;
-  font-family: 'Lato Black';
+  font-family: 'Lato Black', sans-serif;
   line-height: 17.86px;
   font-size: 18px;
   margin-top: 15px;
@@ -353,15 +355,16 @@ li > a > img:hover {
   text-overflow: ellipsis;
 }
 .team-member-description {
-  font-family: 'Lato Regular';
+  font-family: 'Lato Regular', sans-serif;
   font-size: 12px;
   line-height: 21.56px;
   color: #767e9e;
   margin-top: 10px;
   text-justify: left;
+  letter-spacing: -0.02em;
 }
 .about-us-header {
-  font-family: 'Lato Black';
+  font-family: 'Lato Black', sans-serif;
   font-size: 30px;
   line-height: 17.86px;
   color: #666d89;
@@ -369,12 +372,12 @@ li > a > img:hover {
 }
 .about-us-desctiption {
   color: #767e9e;
-  font-family: 'Lato Regular';
+  font-family: 'Lato Regular', sans-serif;
   line-height: 30px;
-  font-size: 18px;
+  font-size: 17px;
   margin-top: 26px;
   word-spacing: 0.001em;
-  letter-spacing: -0.019em;
+  letter-spacing: -0.01em;
 }
 
 /* singolo3 */
@@ -450,13 +453,13 @@ input {
 }
 .get-a-quote-header {
   color: #f0d8d9;
-  font-family: 'Lato Black';
+  font-family: 'Lato Black', sans-serif;
   font-size: 30px;
   line-height: 17.86px;
 }
 .get-a-quote-description {
   color: #f0d8d9;
-  font-family: 'Lato Light';
+  font-family: 'Lato Light', sans-serif;
   font-size: 18px;
   line-height: 30px;
   margin-top: 25px;
@@ -466,12 +469,12 @@ input {
 }
 .get-a-quote-contact-info-header {
   color: #f0d8d9;
-  font-family: 'Lato Black';
+  font-family: 'Lato Black', sans-serif;
   font-size: 18px;
   line-height: 17.86px;
 }
 .get-a-quote-contact-info-description {
-  font-family: 'Lato Regular';
+  font-family: 'Lato Regular', sans-serif;
   font-size: 12px;
   line-height: 21.56px;
   color: #f0d8d9;
@@ -481,7 +484,7 @@ input {
   text-align: justify;
 }
 .info {
-  font-family: 'Lato Regular';
+  font-family: 'Lato Regular', sans-serif;
   font-size: 12px;
   line-height: 21.56px;
   color: #f0d8d9;
@@ -492,10 +495,14 @@ input {
   margin-bottom: 33px;
   align-self: flex-start;
   margin-right: auto;
+  color: #666d89;
+  font-size: 12px;
 }
+
+
 ::placeholder {
   color: #f48c8f;
-  font-family: 'Lato Regular';
+  font-family: 'Lato Regular', sans-serif;
   font-size: 12px;
   line-height: 21.56px;
 }
@@ -509,7 +516,7 @@ input {
 }
 .submit-button {
   color: #f0d8d9;
-  font-family: 'Lato Bold';
+  font-family: 'Lato Bold', sans-serif;
   font-size: 16px;
   width: 200px;
   padding-left: 0;
@@ -535,6 +542,9 @@ span > a:hover {
 .mail-link {
   margin-left: -7px;
 }
+
+
+
 .footer-contacts img:hover {
   opacity: 65%;
   cursor: pointer;
