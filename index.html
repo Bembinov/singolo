@@ -331,8 +331,8 @@
           </p>
           <div class="form-and-info-wrapper">
             <form action="#" method="POST" class="get-a-quote-form">
-              <input type="text" placeholder="Name (Required)" required />
-              <input type="text" placeholder="Email (Required)" required />
+              <input type="text" required placeholder="Name (Required)" pattern="^[a-zA-Z\s]+$">
+              <input type="email" placeholder="Email (Required)" required />
               <input type="text" placeholder="Subject" />
               <textarea
                 placeholder="Describe your project in detail..."
