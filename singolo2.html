@@ -1,218 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Singolo2</title>
-    <link rel="stylesheet" href="singolo2.css" />
-  </head>
-
-  <body>
-    <div class="portfolio-section-wrapper">
-      <section class="portfolio-section">
-        <h2 class="portfolio-header">Portfolio</h2>
-        <p class="portfolio-description">
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-          lacinia odio sem nec elit.
-        </p>
-        <nav class="nav-filter">
-          <ul class="filter">
-            <li class="filter-options-li">
-              <button class="button-all"><span>All</span></button>
-            </li>
-            <li class="filter-options-li">
-              <button class="button-web-design"><span>Web Design</span></button>
-            </li>
-            <li class="filter-options-li">
-              <button class="button-graphic-design">
-                <span>Graphic Design</span>
-              </button>
-            </li>
-            <li class="filter-options-li">
-              <button class="button-artwork"><span>Artwork</span></button>
-            </li>
-          </ul>
-        </nav>
-        <div class="picture-grid">
-          <img
-            src="./assets/images/portfolio-1.png"
-            alt="boat"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-2.png"
-            alt="girl with ice-cream"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-3.png"
-            alt="city in the night"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-4.png"
-            alt="lovely robot"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-5.png"
-            alt="strange animals"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-6.png"
-            alt="SDK visualized"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-7.png"
-            alt="weird figures"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-8.png"
-            alt="birdies"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-9.png"
-            alt="swamp monster"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-10.png"
-            alt="some signature"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-11.png"
-            alt="white mutant"
-            class="portfolio-img"
-          />
-          <img
-            src="./assets/images/portfolio-12.png"
-            alt="voltmeter"
-            class="portfolio-img"
-          />
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="singolo2.css">
+  <title>Singolo1</title>
+</head>
+<body>
+<main>
+  <section id="portfolio" class="portfolio container">
+    <h2 class="portfolio__headline">Portfolio</h2>
+    <p class="portfolio__description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+      sem nec elit.</p>
+    <div class="portfolio__btn-block">
+      <button class="portfolio__tab active">All</button>
+      <button class="portfolio__tab">Web Design</button>
+      <button class="portfolio__tab">Graphic Design</button>
+      <button class="portfolio__tab">Artwork</button>
     </div>
-    <div class="about-us-section-wrapper">
-      <section class="about-us-section">
-        <h2 class="about-us-header">About Us</h2>
-        <p class="about-us-desctiption">
-          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
-          Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
-          lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
-          tortor mauris condimentum nibh.
-        </p>
-        <div class="team-container">
-          <div class="team-member">
-            <img
-              src="./assets/images/person-1.jpg"
-              alt="Adam Jensen"
-              class="team-member-img"
-            />
-            <h3 class="team-member-name">
-              Adam Jensen
-            </h3>
-            <p class="team-member-description">
-              Quisque luctus, quam eget molestie commodo, lacus purus cursus
-              purus, nec rutrum tellus dolor id lorem.
-            </p>
-            <ul class="team-member-contacts">
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/Facebook.png" alt="Facebook"
-                /></a>
-              </li>
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/Google.png" alt="Google"
-                /></a>
-              </li>
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/Twitter.png" alt="Twitter"
-                /></a>
-              </li>
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/LinkedIn.png" alt="LinkedIn"
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <div class="team-member">
-            <img
-              src="./assets/images/person-2.jpg"
-              alt="Desmond Miles"
-              class="team-member-img"
-            />
-            <h3 class="team-member-name">Desmond Miles</h3>
-            <p class="team-member-description">
-              Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
-              laoreet, viverra lacus ut, ultrices velit.
-            </p>
-            <ul class="team-member-contacts">
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/Facebook.png" alt="Facebook"
-                /></a>
-              </li>
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/Google.png" alt="Google"
-                /></a>
-              </li>
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/Twitter.png" alt="Twitter"
-                /></a>
-              </li>
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/LinkedIn.png" alt="LinkedIn"
-                /></a>
-              </li>
-            </ul>
-          </div>
-          <div class="team-member">
-            <img
-              src="./assets/images/person-3.jpg"
-              alt="Scolara Visari"
-              class="team-member-img"
-            />
-            <h3 class="team-member-name">Scolara Visari</h3>
-            <p class="team-member-description">
-              Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis,
-              et consequat felis. Quisque condimentum.
-            </p>
-            <ul class="team-member-contacts">
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/Facebook.png" alt="Facebook"
-                /></a>
-              </li>
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/Google.png" alt="Google"
-                /></a>
-              </li>
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/Twitter.png" alt="Twitter"
-                /></a>
-              </li>
-              <li class="team-member-li">
-                <a href="#" class="team-member-a"
-                  ><img src="./assets/images/LinkedIn.png" alt="LinkedIn"
-                /></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+    <div class="portfolio__card-block">
+      <div class="portfolio__item item-1"></div>
+      <div class="portfolio__item item-2"></div>
+      <div class="portfolio__item item-3"></div>
+      <div class="portfolio__item item-4"></div>
+      <div class="portfolio__item item-5"></div>
+      <div class="portfolio__item item-6"></div>
+      <div class="portfolio__item item-7"></div>
+      <div class="portfolio__item item-8"></div>
+      <div class="portfolio__item item-9"></div>
+      <div class="portfolio__item item-10"></div>
+      <div class="portfolio__item item-11"></div>
+      <div class="portfolio__item item-12"></div>
     </div>
-  </body>
+  </section>
+  <section id="about" class="about container">
+    <h2 class="about__headline">About Us</h2>
+    <p class="about__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non
+      commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus
+      commodo, tortor mauris condimentum nibh.</p>
+    <div class="about__card">
+      <div class="about__item">
+        <div class="about__photo">
+          <img src="assets/images/portfolio/item-15.jpg" alt="Photo">
+        </div>
+        <h3 class="about__name">Adam Jensen</h3>
+        <p class="about__detail">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus
+          dolor id lorem.</p>
+        <div class="about__social">
+          <a href="#" target="_blank" class="about__social-link fb"></a>
+          <a href="#" target="_blank" class="about__social-link google"></a>
+          <a href="#" target="_blank" class="about__social-link twitter"></a>
+          <a href="#" target="_blank" class="about__social-link in"></a>
+        </div>
+      </div>
+      <div class="about__item">
+        <div class="about__photo">
+          <img src="assets/images/portfolio/item-14.jpg" alt="Photo">
+        </div>
+        <h3 class="about__name">Desmond Miles</h3>
+        <p class="about__detail">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus
+          ut, ultrices velit.</p>
+        <div class="about__social">
+          <a href="#" target="_blank" class="about__social-link fb"></a>
+          <a href="#" target="_blank" class="about__social-link google"></a>
+          <a href="#" target="_blank" class="about__social-link twitter"></a>
+          <a href="#" target="_blank" class="about__social-link in"></a>
+        </div>
+      </div>
+      <div class="about__item">
+        <div class="about__photo">
+          <img src="assets/images/portfolio/item-13.jpg" alt="Photo">
+        </div>
+        <h3 class="about__name">Scolara Visari</h3>
+        <p class="about__detail">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.
+          Quisque condimentum.</p>
+        <div class="about__social">
+          <a href="#" target="_blank" class="about__social-link fb"></a>
+          <a href="#" target="_blank" class="about__social-link google"></a>
+          <a href="#" target="_blank" class="about__social-link twitter"></a>
+          <a href="#" target="_blank" class="about__social-link in"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
 </html>
